@@ -327,7 +327,14 @@ footer {
       </div>
       <div class="level-line"></div>
     </div>
-    <div class="games-grid" id="hsk1-grid"></div>
+    <a href="hsk1/HSK1词汇练习_目录.html" class="hsk5-btn">
+      <div class="hsk5-btn-icon">一</div>
+      <div class="hsk5-btn-text">
+        <div class="hsk5-btn-title">进入 HSK1 练习目录</div>
+        <div class="hsk5-btn-sub">6 ejercicios · Acceder al índice →</div>
+      </div>
+      <div class="hsk5-arrow">→</div>
+    </a>
   </div>
 
   <!-- HSK 2 -->
@@ -340,7 +347,14 @@ footer {
       </div>
       <div class="level-line"></div>
     </div>
-    <div class="games-grid" id="hsk2-grid"></div>
+    <a href="hsk2/HSK2词汇练习_目录.html" class="hsk5-btn">
+      <div class="hsk5-btn-icon">二</div>
+      <div class="hsk5-btn-text">
+        <div class="hsk5-btn-title">进入 HSK2 练习目录</div>
+        <div class="hsk5-btn-sub">12 ejercicios · Acceder al índice →</div>
+      </div>
+      <div class="hsk5-arrow">→</div>
+    </a>
   </div>
 
   <!-- HSK 3 -->
@@ -353,7 +367,14 @@ footer {
       </div>
       <div class="level-line"></div>
     </div>
-    <div class="games-grid" id="hsk3-grid"></div>
+    <a href="hsk3/HSK3词汇练习_目录.html" class="hsk5-btn">
+      <div class="hsk5-btn-icon">三</div>
+      <div class="hsk5-btn-text">
+        <div class="hsk5-btn-title">进入 HSK3 练习目录</div>
+        <div class="hsk5-btn-sub">24 ejercicios · Acceder al índice →</div>
+      </div>
+      <div class="hsk5-arrow">→</div>
+    </a>
   </div>
 
   <!-- HSK 4 -->
@@ -437,35 +458,7 @@ footer {
 </footer>
 
 <script>
-// HSK1 - 6 ejercicios
-const grid1 = document.getElementById('hsk1-grid');
-for (let i = 1; i <= 6; i++) {
-  const a = document.createElement('a');
-  a.href = `hsk1/HSK1词汇练习${i}.html`;
-  a.className = 'game-btn';
-  a.innerHTML = `<span class="game-num">${i}</span><span class="game-label">练习 ${i}</span>`;
-  grid1.appendChild(a);
-}
 
-// HSK2 - 8 ejercicios
-const grid2 = document.getElementById('hsk2-grid');
-for (let i = 1; i <= 12; i++) {
-  const a = document.createElement('a');
-  a.href = `hsk2/HSK2词汇练习${i}.html`;
-  a.className = 'game-btn';
-  a.innerHTML = `<span class="game-num">${i}</span><span class="game-label">练习 ${i}</span>`;
-  grid2.appendChild(a);
-}
-
-// HSK3 - 24 ejercicios
-const grid3 = document.getElementById('hsk3-grid');
-for (let i = 1; i <= 24; i++) {
-  const a = document.createElement('a');
-  a.href = `hsk3/HSK3词汇练习${i}.html`;
-  a.className = 'game-btn';
-  a.innerHTML = `<span class="game-num">${i}</span><span class="game-label">练习 ${i}</span>`;
-  grid3.appendChild(a);
-}
 </script>
 
 </body>
